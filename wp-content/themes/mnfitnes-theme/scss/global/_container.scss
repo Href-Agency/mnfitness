@@ -1,0 +1,13 @@
+.site-container {
+  max-width: $container-width;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+
+  @media screen and (max-width: ($container-width + 60px)) {
+    max-width: none;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    box-sizing: border-box;
+  }
+}

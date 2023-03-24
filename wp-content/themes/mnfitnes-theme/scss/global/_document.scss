@@ -1,0 +1,27 @@
+::-moz-selection {
+  background-color: $brand;
+  color: $white;
+  text-shadow: none;
+}
+
+::selection {
+  background-color: $brand;
+  color: $white;
+  text-shadow: none;
+}
+
+html, 
+body {
+  color: $text-colour;
+  font-family: $primary-font;
+  font-size: 100%;
+}
+
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+body {
+  background: $body-background;
+}

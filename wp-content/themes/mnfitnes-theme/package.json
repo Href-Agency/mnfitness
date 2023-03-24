@@ -1,0 +1,26 @@
+{
+  "name": "base-theme",
+  "version": "1.0.0",
+  "vhost": "http://base.local",
+  "scripts": {
+    "local": "gulp --local",
+    "live": "gulp"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-include": "^2.4.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "node-notifier": "^7.0.1",
+    "reset-css": "^5.0.1"
+  }
+}

@@ -1,0 +1,18 @@
+// Vendor packages
+@import "reset-css/sass/reset"; // This is an NPM package, run `npm install` to ensure it's available to include.
+@import "vendor/example"; // This is a manually placed vendor package.
+
+// Variables & mixins
+@import "core/**/*.scss";
+
+// General styles
+@import "general/**/*.scss";
+
+// Global styles
+@import "global/**/*.scss";
+
+// Components styles
+@import "components/**/*.scss";
+
+// Block styles
+@import "blocks/**/*.scss";

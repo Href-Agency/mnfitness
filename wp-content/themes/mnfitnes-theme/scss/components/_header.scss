@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("/wp-content/uploads/2022/07/Trident Place AW 260722/Fonts/Roboto-Regular.ttf")
+    format("truetype"); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: "Chiswick-Deck-Semibold";
+  src: url("/wp-content/uploads/2022/07/Trident Place AW 260722/Fonts/Chiswick Deck Semibold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("/wp-content/uploads/2022/08/Roboto-Bold.ttf");
+}
+
+body {
+  font-family: "Roboto-Regular";
+}
+
+.site-header {
+  .site-container {
+    max-width: 100%;
+    position: absolute;
+    z-index: 10;
+    .header {
+      img {
+        margin-left: 23px;
+        margin-top: 26px;
+        max-width: 180px;
+        max-height: auto;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1366px) {
+    .site-container {
+      .header {
+        img {
+          width: 180px;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .site-container {
+      .header {
+        img {
+          width: 150px;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .site-container {
+      .header {
+        img {
+          margin-left: 16px;
+          margin-top: 26.1px;
+          width: 120px;
+        }
+      }
+    }
+  }
+}

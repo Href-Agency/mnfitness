@@ -1,0 +1,128 @@
+p, 
+h1, 
+.h1, 
+h2, 
+.h2, 
+h3, 
+.h3, 
+h4, 
+.h4, 
+h5, 
+.h5,
+h6, 
+.h6,
+pre,
+address, 
+blockquote {
+  // margin-bottom: 24px;
+}
+
+a {
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+  color: $brand;
+  
+  &:hover {
+    color: $accent;
+  }
+}
+
+h1, 
+.h1 {
+  font-size: 48px;
+  line-height: 54px;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+
+h2, 
+.h2 {
+  font-size: 36px;
+  line-height: 36px;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+h3, 
+.h3 {
+  font-size: 30px;
+  line-height: 36px;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 21px;
+    line-height: 27px;
+  }
+}
+
+h4, 
+.h4 {
+  font-size: 22px;
+  line-height: 24px;
+}
+
+h5, 
+.h5 {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+h6, 
+.h6 {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+strong {
+  font-weight: $weight-bold;
+}
+
+p,
+li,
+blockquote {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: $weight-normal;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+blockquote p {
+  margin: 0;
+  font-style: italic;
+}
+
+article {
+  ol, 
+  ul {
+    margin-left: 25px;
+    margin-bottom: 20px;
+
+    li {
+      margin-bottom: 8px;
+    }
+  }
+
+  ol li {
+    list-style: decimal;
+  }
+
+  ul li {
+    list-style: disc;
+  }
+}
+
+article,
+.last-child-no-margin {
+  & > *:last-child {
+    margin-bottom: 0;
+  }
+}
