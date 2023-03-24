@@ -6,15 +6,15 @@
     justify-content: center;
     padding: 100px 0;
     a {
-      line-height: 28px;
-      font-size: 20px;
+      line-height: 1.5;
+      font-size: 30px;
       color: #3c3c62;
       transition: all 0.3s;
       display: block;
       width: 340px;
       margin: 0;
       @media only screen and (max-width: 768px){
-        font-size: 16px;
+        font-size: 24px;
         line-height: 1.25;
       }
       &:hover {
@@ -26,11 +26,11 @@
     }
     h3 {
       font-family: "Roboto-Bold";
-      line-height: 33px;
-      font-size: 20px;
+      line-height: 1.5;
+      font-size: 30px;
       letter-spacing: 0.2px;
       @media only screen and (max-width: 768px){
-        font-size: 16px;
+        font-size: 24px;
         line-height: 1.25;
       }
     }
